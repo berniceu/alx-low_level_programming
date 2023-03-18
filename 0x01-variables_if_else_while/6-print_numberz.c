@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * description: 'alphabet in lowercase'
+ * Description: 'print base 10 numbers'
  * Return: always 0
  */
 int main(void)
 {
-	int n = 97;
+	int n;
 
-	while (n <= 122)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n);
-		n++;
+		putchar(n + 48);
 	}
 	putchar('\n');
 	return (0);
 }
-
